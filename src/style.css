@@ -1,1 +1,32 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.App .header {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 23;
+  grid-column: 1 / 24;
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[23];
+      grid-template-columns: repeat(23, 1fr);
+}
+
+.App .header .innerHeader {
+  -ms-grid-column: 20;
+  -ms-grid-column-span: 4;
+  grid-column: 20 / 24;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .header .innerHeader .cartHeader {
+  position: relative;
+  left: 10px;
+  font-size: 1.25rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+ 
+ .App {
+    .header {
+        grid-column: 1 / 24;
+        height: 100px;
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        .innerHeader {
+            grid-column: 20 / 24;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .cartHeader {
+                position: relative;
+                left: 10px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+  }
