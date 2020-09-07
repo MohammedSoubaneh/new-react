@@ -2,8 +2,11 @@ import React from 'react'
 
 function Header() {
     return (
-        <div>
-            <section>Header</section>
+        <div className="header">
+            <div className="innerHeader">
+                <div> <img /> </div>
+                <div>Cart</div>
+            </div>
         </div>
     )
 }

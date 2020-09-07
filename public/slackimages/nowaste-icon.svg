@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="516.8" height="516.8" viewBox="0 0 516.8 516.8">
+  <g id="Group_3" data-name="Group 3" transform="translate(2.4 2.4)">
+    <g id="Group_16" data-name="Group 16">
+      <circle id="Oval" cx="256" cy="256" r="256" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+      <g id="Group_17" data-name="Group 17" transform="translate(74.667 74.667)">
+        <path id="Rectangle" d="M0,12.065a4.3,4.3,0,0,1,4.3-4.3H66.035C66.035,3.923,69.958,0,73.8,0H163.38c3.845,0,7.768,3.923,7.768,7.768h62.235a4.3,4.3,0,0,1,4.3,4.3V21.3H0Z" transform="translate(64.472 68.545)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+        <path id="Rectangle-2" data-name="Rectangle" d="M5.333,0H33.3a5.333,5.333,0,0,1,5.333,5.333v5.153a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5.333A5.333,5.333,0,0,1,5.333,0Z" transform="translate(163.998 58.059)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+        <path id="Rectangle-3" data-name="Rectangle" d="M0,0H195.736l-9.829,209.708a10.667,10.667,0,0,1-10.655,10.167H20.484A10.667,10.667,0,0,1,9.829,209.708Z" transform="translate(85.444 89.845)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+        <path id="Path_10" data-name="Path 10" d="M5.243,135.755.09,0" transform="translate(137.873 124.47)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+        <path id="Path_10-2" data-name="Path 10" d="M2.667,135.755V0" transform="translate(182.393 124.47)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+        <path id="Path_10-3" data-name="Path 10" d="M.09,135.755,5.243,0" transform="translate(226.913 124.47)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+        <path id="Path_11" data-name="Path 11" d="M360.928,0,0,360.928" transform="translate(0 0)" fill="none" stroke="#171347" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4.8"/>
+      </g>
+    </g>
+  </g>
+</svg>
