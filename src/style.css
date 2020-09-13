@@ -1,7 +1,4 @@
 .App .header {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 23;
-  grid-column: 1 / 24;
   height: 100px;
   display: -ms-grid;
   display: grid;
@@ -28,5 +25,18 @@
   position: relative;
   left: 10px;
   font-size: 1.25rem;
+}
+
+.App .heroSectionOne {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[23];
+      grid-template-columns: repeat(23, 1fr);
+}
+
+.App .heroSectionOne .flowerImage {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 15;
+  grid-column: 9 / 24;
 }
 /*# sourceMappingURL=style.css.map */

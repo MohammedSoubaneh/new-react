@@ -1,7 +1,6 @@
  
  .App {
     .header {
-        grid-column: 1 / 24;
         height: 100px;
         display: grid;
         grid-template-columns: repeat(23, 1fr);
@@ -15,6 +14,16 @@
                 left: 10px;
                 font-size: 1.25rem;
             }
+        }
+    }
+    .heroSectionOne {
+        display: grid;
+        grid-template-columns: repeat(23, 1fr);
+        .flowerImage {
+            grid-column: 9 / 24;
+        }
+        .title {
+
         }
     }
   }
