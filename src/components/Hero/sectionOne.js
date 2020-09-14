@@ -4,9 +4,9 @@ function SectionOne() {
     return (
         <div>
             <section className="heroSectionOne">
-                <div className="flowerImage" ><img src="./slackimages\itemerie_1024x1024.png" width="35px" /></div>
+                <div className="flowerImage" ><img src="./slackimages\itemerie_1024x1024.png" width="50px" /></div>
                 <div className="title">Find real ecologically responsible items for your home and for you. </div>
-                <div>Discover Our Items</div>
+                <div className="discoverButton">Discover Our Items</div>
                 <div className="heroSectionTwo">
                 <div className="SubTitleText"> 
                 <h1>What do you mean by real?</h1>

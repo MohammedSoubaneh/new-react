@@ -39,4 +39,11 @@
   -ms-grid-column-span: 15;
   grid-column: 9 / 24;
 }
+
+.App .heroSectionOne .title {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 15;
+  grid-column: 9 / 24;
+  font-size: 50px;
+}
 /*# sourceMappingURL=style.css.map */
