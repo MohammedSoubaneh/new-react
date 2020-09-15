@@ -32,6 +32,14 @@
   display: grid;
   -ms-grid-columns: (1fr)[23];
       grid-template-columns: repeat(23, 1fr);
+  /*  .blueContainer {
+            background-color: lightblue;
+            grid-column: 7 / 24;
+            height: 713px;
+            position: relative;
+            bottom: 61rem;
+        }
+    */
 }
 
 .App .heroSectionOne .flowerImage {
@@ -39,6 +47,7 @@
   -ms-grid-column-span: 15;
   grid-column: 9 / 24;
   background-color: green;
+  z-index: 10;
 }
 
 .App .heroSectionOne .title {
@@ -46,6 +55,7 @@
   -ms-grid-column-span: 15;
   grid-column: 9 / 24;
   font-size: 50px;
+  z-index: 10;
 }
 
 .App .heroSectionOne .discoverButton {
@@ -65,5 +75,36 @@
           justify-content: center;
   position: relative;
   top: 105px;
+  z-index: 10;
+}
+
+.App .heroSectionOne .heroSectionTwo {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 15;
+  grid-column: 9 / 24;
+  position: relative;
+  top: 120px;
+  background-color: #000349;
+  height: 351px;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[14];
+      grid-template-columns: repeat(14, 1fr);
+}
+
+.App .heroSectionOne .heroSectionTwo .subTitleText {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  grid-column: 3 / 8;
+  bottom: 6px;
+  z-index: 10;
+}
+
+.App .heroSectionOne .heroSectionTwo .subPgText {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  grid-column: 3 / 8;
+  bottom: 6px;
 }
 /*# sourceMappingURL=style.css.map */

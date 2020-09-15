@@ -22,11 +22,13 @@
         .flowerImage {
             grid-column: 9 / 24;
             background-color: green;
-    } 
+            z-index: 10;
+        } 
 
         .title {
             grid-column: 9 / 24;
             font-size: 50px;
+            z-index: 10;
         }
         .discoverButton {
             grid-column: 9 / 12;
@@ -37,7 +39,38 @@
             justify-content: center;
             position: relative;
             top: 105px;
+            z-index: 10;
 
+        }
+    /*  .blueContainer {
+            background-color: lightblue;
+            grid-column: 7 / 24;
+            height: 713px;
+            position: relative;
+            bottom: 61rem;
+        }
+    */
+
+        .heroSectionTwo{
+            grid-column: 9 / 24;
+            position: relative;
+            top: 120px;
+            background-color: #000349;
+            height: 351px;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(14, 1fr);
+
+        .subTitleText{
+
+            grid-column: 3 / 8;
+            bottom: 6px;
+            z-index: 10;
+        }
+        .subPgText{
+            grid-column: 3 / 8;
+            bottom: 6px;
+        }
         }
     }
   }
